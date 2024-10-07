@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>YEEZY Store - Las Mejores Yeezys</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="img/undraw_empty_cart_co35.svg" type="image/x-icon">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img class="logo-img" src="img/effect.svg" alt="Logode la pagina">
+            </div>
+
+            <ul>
+                <li class="submenu">
+                        <img src="img/cart.png" id="img-carrito">
+                        <div id="carrito">
+                                
+                                <table id="lista-carrito" class="tabla">
+                                    <thead>
+                                        <tr class="contenedor-th">
+                                            <th>Imagen</th>
+                                            <th>Nombre</th>
+                                            <th>Precio</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+
+                                <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                        </div>
+                </li>
+            </ul>
+
+            <!-- <ul> -->
+                <!-- <li><a href="#inicio">Inicio</a></li> -->
+                <!-- <li><a href="#catalogo">Catálogo</a></li> -->
+                <!-- <li><a href="#">Sobre Nosotros</a></li> -->
+                <!-- <li><a href="#contacto">Contacto</a></li> -->
+            <!-- </ul> -->
+        </nav>
+    </header>
+
+    <main>
+        <section class="inicio" id="inicio">
+            <div class="container">
+                <h2 class="inicio-title">BIENVENIDOS A YEEZY STORE</h2>
+            </div>
+        </section>
+        
+        <div class="container" id="catalogo">
+            <h1>Nuestras Yezzys</h1>
+            <div class="products" id="products">
+                <div class="product">
+                    <div class="marca">
+                        YEEZY
+                    </div>
+                    <img src="img/05e61d5d5aa7e82eb4e39ecedc645268.png" alt="Producto 1">
+                    <h3 class="product__name">Boost 350 White</h3>
+                    <p class="precio">RD$<span class="precio-num">28700</span></p>
+                    <button class="agregar-carrito" data-id="1">Agregar al Carrito</button>
+                </div>
+                <div class="product">
+                    <div class="marca">
+                        YEEZY
+                    </div>
+                    <img src="img/1c0c7323152403b56736999b3efbe96e.png" alt="Producto 2">
+                    <h3 class="product__name">Boost 350 Brown</h3>
+                    <p class="precio">RD$<span class="precio-num">31240</span></p>
+                    <button class="agregar-carrito" data-id="2">Agregar al Carrito</button>
+                </div>
+                <div class="product">
+                    <div class="marca">
+                        YEEZY
+                    </div>
+                    <img src="img/4f59c72c3897127194639d7e59b525c4.png" alt="Producto 3">
+                    <h3 class="product__name">700 V3 Kyanite</h3>
+                    <p class="precio">RD$<span class="precio-num">22000</span></p>
+                    <button class="agregar-carrito" data-id="3">Agregar al Carrito</button>
+                </div>
+                <div class="product">
+                    <div class="marca">
+                        YEEZY
+                    </div>
+                    <img src="img/60e04b1d80a7b2021e5d8de8d7a03891.png" alt="Producto 4">
+                    <h3 class="product__name">Boots 500</h3>
+                    <p class="precio">RD$<span class="precio-num">17200</span></p>
+                    <button class="agregar-carrito" data-id="4">Agregar al Carrito</button>
+                </div>
+
+                <div class="product">
+                    <div class="marca">
+                        YEEZY
+                    </div>
+                    <img src="img/5a45f3acf594c89d9070c9eb6b3de7e5.png"Producto 5">
+                    <h3 class="product__name">Boost 380</h3>
+                    <p class="precio">RD$<span class="precio-num">38000</span></p>
+                    <button class="agregar-carrito" data-id="5">Agregar al Carrito</button>
+                </div>
+                <div class="product">
+                    <div class="marca">
+                        YEEZY
+                    </div>
+                    <img src="img/ae5ecf5a553c3ec71a45d67099060404.png" alt="Producto 6">
+                    <h3 class="product__name">350 V2 "Beluga"</h3>
+                    <p class="precio">RD$<span class="precio-num">28000</span></p>
+                    <button class="agregar-carrito" data-id="6">Agregar al Carrito</button>
+                </div>
+                <div class="product">
+                    <div class="marca">
+                        YEEZY
+                    </div>
+                    <img src="img/bd568446f205a88b7538f1cf452d5909.png"Producto 7">
+                    <h3 class="product__name">Boost 700 "Inertia"</h3>
+                    <p class="precio">RD$<span class="precio-num">22000</span></p>
+                    <button class="agregar-carrito" data-id="7">Agregar al Carrito</button>
+                </div>
+                <div class="product">
+                    <div class="marca">
+                        YEEZY
+                    </div>
+                    <img src="img/cd05e6b477531f4499f4838cc76b9b72.png" alt="Producto 8">
+                    <h3 class="product__name">450 "Resin"</h3>
+                    <p class="precio">RD$<span class="precio-num">41000</span></p>
+                    <button class="agregar-carrito" data-id="8">Agregar al Carrito</button>
+                </div>
+                <div class="product">
+                    <div class="marca">
+                        YEEZY
+                    </div>
+                    <img src="img/d78d2eb36e9b882fc80b37e93673646b.png" alt="Producto 9">
+                    <h3 class="product__name">High 500 Sumac</h3>
+                    <p class="precio">RD$<span class="precio-num">34000</span></p>
+                    <button class="agregar-carrito" data-id="9">Agregar al Carrito</button>
+                </div>
+                <div class="product">
+                    <div class="marca">
+                        YEEZY
+                    </div>
+                    <img src="img/4f59c72c3897127194639d7e59b525c4.png" alt="Producto 3">
+                    <h3 class="product__name">Foam RNNR Ararat</h3>
+                    <p class="precio">RD$<span class="precio-num">12000</span></p>
+                    <button class="agregar-carrito" data-id="10">Agregar al Carrito</button>
+                </div>
+                <div class="product">
+                    <div class="marca">
+                        YEEZY
+                    </div>
+                    <img src="img/60e04b1d80a7b2021e5d8de8d7a03891.png" alt="Producto 4">
+                    <h3 class="product__name"> Boots 500</h3>
+                    <p class="precio">RD$<span class="precio-num">19000</span></p>
+                    <button class="agregar-carrito" data-id="11">Agregar al Carrito</button>
+                </div>
+                <div class="product">
+                    <div class="marca">
+                        YEEZY
+                    </div>
+                    <img src="img/5a45f3acf594c89d9070c9eb6b3de7e5.png"Producto 5">
+                    <h3 class="product__name">Boots 700</h3>
+                    <p class="precio">RD$<span class="precio-num">35000</span></p>
+                    <button class="agregar-carrito" data-id="12">Agregar al Carrito</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="features">
+        <div class="container">
+            <h2 class="features-title">¿POR QUÉ ELEGIRNOS A NOSOTROS?</h2>
+            <div class="feature-cards">
+
+                <div class="card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    <h3>Promociones Exclusivas</h3>
+                    <p>Aprovecha ofertas limitadas que te permiten conseguir tus sneakers favoritos a precios inmejorables.</p>
+                </div>
+                <div class="card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
+                    <h3>Ediciones Especiales</h3>
+                    <p>Despues de 3 compras al mes estas incluyen detalles únicos como empaques personalizados y regalos sorpresa.</p>
+                </div>
+                <div class="card">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><path d="M9 12l2 2 4-4"></path></svg>
+                    <h3>Servicio al Cliente 24/7</h3>
+                    <p>Nuestro equipo de servicio al cliente está disponible 24/7 para ayudarte en cualquier momento.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Acerca de Nosotros</h3>
+                <p>"Yeezys a tu estilo, calidad a tu medida." 
+                    ¡Descubre la tienda definitiva para los amantes de Yeezys! Aquí encontrarás los modelos más exclusivos con calidad premium y diseño impecable.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#catalogo">Catálogo</a></li>
+                    <li><a href="#">Sobre Nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p>
+                    Email: omarrosadoj@gmail.com<br>
+                    Teléfono: 829-449-0034<br>
+                    Dirección: Avenida 27 de Febrero.
+                </p>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="social-icons">
+                    <a class="i-link" href="" target="_blank"><i class="fa-brands fa-whatsapp " src=""></i></a>
+                    <a class="i-link" href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i class="fa-solid fa-envelope "></i></a>
+                    <a class="i-link" href="https://www.facebook.com/profile.php?id=100016115884284" target="_blank"><i class="fa-brands fa-facebook "></i></a>
+                    <a class="i-link" href="https://www.instagram.com/omxr.rb/" target="_blank"><i class="fa-brands fa-instagram "></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; Proyecto creado por José Omar Rosado Bueno</p>
+        </div>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>

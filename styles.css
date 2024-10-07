@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Warang+Citi&display=swap');
+
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Noto Sans Warang Citi", sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+}
+
+thead{
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1, h2, h3 {
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header */
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2.1rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+.tabla {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+tbody {
+    width: 100%;
+    justify-content: space-around;
+}
+
+tbody td{
+    margin: 0 5px;
+}
+
+tbody tr{
+    width: 100%;
+}
+
+.contenedor-th {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submenu {
+    position: relative;
+}
+
+.submenu #carrito{
+    display: none;
+}
+.submenu:hover #carrito{
+    display: block;
+    position: absolute;
+    right:0;
+    top:100%;
+    z-index: 1;
+    background-color: white;
+    border-radius: 8px;
+    padding: 25px ;
+    min-height: 400px;
+    min-width: 300px;
+    box-shadow: 8px 8px 20px #0005;
+}
+
+#vaciar-carrito{
+    text-align: center;
+    width: 100%;
+    padding: 10px 0 ;
+    border: 1px solid #0005;
+    border-radius: 8px;
+
+}
+
+.u-full-width{
+    display: flex;
+    margin: 12px 0;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+}
+
+#lista-carrito thead tr th{
+    margin: 8px 12px;
+}
+
+/**/
+
+.logo-img{
+    width: 100%;
+    max-width: 100px;
+}
+
+.sr-only{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.inicio{
+    padding: 9rem 0;
+    background-image: url(img/unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inicio-title{
+    font-size: 48px;
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+    font-weight: bolder;
+    text-shadow: 5px 5px #000
+}
+/* Features Section */
+.features {
+    padding: 4rem 0;
+    background-image: url(img/wallpaperflare.com_wallpaper.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.features-title{
+    font-size: 42px;
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+    text-shadow: 5px 5px #000;
+}
+
+.feature-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.card {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.card img {
+    margin-bottom: 1rem;
+}
+
+
+/*Footer*/
+.footer {
+    background-color: #f4f4f4;
+    padding: 2rem 0;
+    text-align: center;
+    padding: 40px 0;
+}
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-section {
+    flex: 1;
+    margin: 0 20px;
+    min-width: 200px;
+}
+.footer-section h3 {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.footer-section p, .footer-section ul {
+    font-size: 14px;
+    line-height: 1.6;
+}
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+.footer-section ul li a {
+    color: #000;
+    text-decoration: none;
+}
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.social-icons a {
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+}
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #555;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.precio{
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 10px 10px #0003;
+}
+
+.product img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.product .product__name {
+    border-top: 1px solid #0002;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.product p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product button {
+    background-color: #353535;
+    /* background-color: #007bff; */
+    font-family: inherit;
+    font-size: 16px;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product button:hover {
+    background-color: #0009;
+    /* background-color: #0056b3; */
+}
+
+.cart-summary {
+    margin-top: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.marca{
+    font-size: 18px;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #0002;
+    padding-bottom: 5px;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-content, .hero-image {
+        text-align: center;
+    }
+
+    .cta-buttons {
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .products {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+@media (min-width:998px){
+    header{
+        padding: 5px 120px;
+    }
+}
